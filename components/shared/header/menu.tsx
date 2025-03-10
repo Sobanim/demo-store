@@ -17,12 +17,12 @@ const Menu = () => {
       <nav className="hidden md:flex w-full max-w-xs gap-1">
         <ModeToggle />
         <Button asChild variant="ghost">
-          <Link href={'/cart'}>
+          <Link href="/cart">
             <ShoppingCart /> Cart
           </Link>
         </Button>
         <Button asChild variant="ghost">
-          <Link href={'/sign-in'}>
+          <Link href="/sign-in">
             <UserIcon /> Sign in
           </Link>
         </Button>
@@ -42,7 +42,7 @@ const Menu = () => {
               </Link>
             </Button>
             <Button asChild variant="ghost">
-              <Link href={'/sign-in'}>
+              <Link href="/sign-in">
                 <UserIcon /> Sign in
               </Link>
             </Button>
